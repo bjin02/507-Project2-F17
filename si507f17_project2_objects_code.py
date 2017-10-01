@@ -139,7 +139,7 @@ def writeToCSVFile(fileName, media_list):
         writer.write("title, artist, id, url, length\n")
         for media in media_list:
             writer.write(
-                "{}", {}, {}, {}, {}\n'.format(media.title, media.author,
+                '"{}", {}, {}, {}, {}\n'.format(media.title, media.author,
                                       media.itunes_id, media.itunes_URL, len(media)))
 
 writeToCSVFile("movies.csv", movie_list)
