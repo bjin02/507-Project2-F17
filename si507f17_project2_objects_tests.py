@@ -4,7 +4,6 @@ from si507f17_project2_objects_code import *
 ##########
 print("BELOW IS TEST OUTPUT FOR PROJECT 2 SI 507 F17 *****\n\n")
 
-
 class Problem1(unittest.TestCase):
 	def setUp(self):
 		search_data1 = sample_get_cache_itunes_data("the beatles")["results"]
